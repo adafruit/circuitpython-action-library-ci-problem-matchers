@@ -1,0 +1,14 @@
+{
+  "problemMatcher": [
+    {
+      "severity": "error",
+      "pattern": [
+        {
+          "regexp": "^([^.]+)\\.+Failed$",
+          "message": 1
+        }
+      ],
+      "owner": "pre-commit-failed"
+    }
+  ]
+}

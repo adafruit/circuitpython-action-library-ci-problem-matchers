@@ -9,3 +9,5 @@ runs:
       shell: bash
     - run: echo "::add-matcher::"${{ github.action_path }}/pylint-warning.json
       shell: bash
+    - run: echo "::add-matcher::"${{ github.action_path }}/pre-commit-failed.json
+      shell: bash
