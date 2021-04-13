@@ -11,3 +11,5 @@ runs:
       shell: bash
     - run: echo "::add-matcher::"${{ github.action_path }}/pre-commit-failed.json
       shell: bash
+    - run: echo "::add-matcher::"${{ github.action_path }}/reuse-missing.json
+      shell: bash

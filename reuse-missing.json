@@ -1,0 +1,19 @@
+{
+  "problemMatcher": [
+    {
+      "severity": "error",
+      "pattern": [
+        {
+          "regexp": "^(The following files have no copyright and licensing information):$",
+          "message": 1
+        },
+        {
+          "regexp": "^* (.+)$",
+          "file": 1,
+          "loop": true
+        },
+      ],
+      "owner": "pylint-error"
+    }
+  ]
+}
