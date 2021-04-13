@@ -5,9 +5,7 @@ runs:
   steps:
     - run: echo "Adding from" ${{ github.action_path }}
       shell: bash
-    - run: echo "::add-matcher::"${{ github.action_path }}/pylint-error.json
-      shell: bash
-    - run: echo "::add-matcher::"${{ github.action_path }}/pylint-warning.json
+    - run: echo "::add-matcher::"${{ github.action_path }}/pylint.json
       shell: bash
     - run: echo "::add-matcher::"${{ github.action_path }}/pre-commit-failed.json
       shell: bash

@@ -1,10 +1,10 @@
 {
   "problemMatcher": [
     {
-      "severity": "warning",
+      "severity": "error",
       "pattern": [
         {
-          "regexp": "^([^:]+):(\\d+):(\\d+): ([A-DF-Z]\\d+): (.+) \\(([^\\)]+)\\)$",
+          "regexp": "^([^:]+):(\\d+):(\\d+): ([A-Z]\\d+): (.+) \\(([^\\)]+)\\)$",
           "file": 1,
           "line": 2,
           "column": 3,
@@ -12,7 +12,7 @@
           "message": 5
         }
       ],
-      "owner": "pylint-warning"
+      "owner": "pylint"
     }
   ]
 }
