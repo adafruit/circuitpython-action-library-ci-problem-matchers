@@ -4,11 +4,11 @@
       "severity": "warning",
       "pattern": [
         {
-          "regexp": "^([^:]+):(\\d+):(\\d+): ([A-DF-Z]\\d+): \\033\\[[\\d;]+m([^\\033]+).*$",
+          "regexp": "^([^:]+):(\\d+):(\\d+): ([A-DF-Z]\\d+): (.+) \\(([^\\)]+)\\)$",
           "file": 1,
           "line": 2,
           "column": 3,
-          "code": 4,
+          "code": 6,
           "message": 5
         }
       ],

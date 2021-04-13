@@ -5,7 +5,7 @@
       "pattern": [
         {
           "regexp": "^(reformatted) (.+)$",
-          "fromPath": 2,
+          "file": 2,
           "message": 1
         }
       ],
