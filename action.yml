@@ -1,0 +1,11 @@
+name: 'Adding CircuitPython Library problem matchers'
+description: 'Adds problem matchers for CircuitPython library checks'
+runs:
+  using: "composite"
+  steps:
+    - run: echo "Adding from" ${{ github.action_path }}
+      shell: bash
+    - run: echo "::add-matcher::"${{ github.action_path }}/pylint-error.json
+      shell: bash
+    - run: echo "::add-matcher::"${{ github.action_path }}/pylint-warning.json
+      shell: bash
