@@ -4,11 +4,12 @@
       "severity": "error",
       "pattern": [
         {
-          "regexp": "# (MISSING COPYRIGHT AND LICENSING INFORMATION)$",
+          "regexp": "^(reformatted) (.+)$",
+          "fromPath": 2,
           "message": 1
         }
       ],
-      "owner": "reuse-missing"
+      "owner": "black-reformatted"
     }
   ]
 }

@@ -13,3 +13,5 @@ runs:
       shell: bash
     - run: echo "::add-matcher::"${{ github.action_path }}/reuse-missing.json
       shell: bash
+    - run: echo "::add-matcher::"${{ github.action_path }}/black-reformatted.json
+      shell: bash
